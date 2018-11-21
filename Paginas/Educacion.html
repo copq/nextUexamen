@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta  name="viewport" content="width=device-width,user-scalable=no">
+	<title>Educación</title>
+</head>
+<body>
+  <svg height="60 px" width="250 px">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(88, 214, 141);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(52, 152, 219);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="30" rx="60" ry="30" fill="url(#grad1)" />
+  <text fill="#ffffff" font-size="38" font-family="Verdana" x="45" y="45">COPQ</text>
+</svg>
+  <section id="Cabecera">
+    <h1>Curriculum Vitae</h1>
+    <h2>Carlos Orlando Pacheco Quintana</h2>
+    <h3>02 de agosto de 1986 - Miraflores - Lima  - Perú</h3>
+  </section>
+  <nav>
+    <ol>
+      <li><a href="../Index.html">Inicio</a></li>
+      <li><a href="../Paginas/Educacion.html">Educación</a></li>
+      <li><a href="../Paginas/Experiencia.html">Experiencia</a></li>
+    </ol>
+  </nav>
+  <h2> Educación</h2>
+  <table border="1">
+    <thead>
+      <th>Año</th>
+      <th>Institucion</th>
+      <th>Lugar</th>
+      <th>Culmino</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2004</td>
+        <td>Universidad Cesar Vallejo</td>
+        <td>Lima</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+				<td>2016</td>
+        <td>bsgrupo</td>
+        <td>Diplomado Big Data</td>
+        <td>Si</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3>Agregar Estudios</h3>
+  <form class="" action="cargarEstudios" method="post">
+    Año        :<select class="" name="">
+      <option value="2018" selected>2018</option>
+      <option value="2017">2017</option>
+      <option value="2016">2016</option>
+      <option value="2015">2015</option>
+      <option value="2014">2014</option>
+      <option value="2013">2013</option>
+      <option value="2012">2012</option>
+      <option value="2011">2011</option>
+      <option value="2010">2010</option>
+      <option value="2009">2009</option>
+      <option value="2008">2008</option>
+      <option value="2007">2007</option>
+    </select><br>
+    Institucion : <input type="text" name="Institucion" value=""><br>
+    Lugar       : <input type="text" name="Lugar" value=""><br>
+		<br>
+		<input type="submit" name="Cargar" value="Cargar">
+
+
+  </form>
+
+  <footer>
+  <p><strong>Direccion :</strong>Av. Metropolitana #545 <br>
+  <strong>Correo    :</strong>opachecoq@gmail.com <br>
+  <strong>cel       :</strong>993 733 944</p>
+  </footer>
+</body>
+</html>
